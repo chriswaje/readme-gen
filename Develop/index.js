@@ -5,15 +5,17 @@ const questions = require('./utils/questions');
 const allFunctions = require('./utils/functions');
 const handleAnswers = allFunctions.handleAnswers;
 
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
 // code to call our inquirer prompt
-prompt(questions).then(handleAnswers);
+prompt(questions)
+.then(handleAnswers)
+.then(function (md) {
+    console.log(md);
 
-// Function call to initialize app
-init();
+    //code to write the README file within the build folder
+    fs.writeFile('./build/README.md', md, function (err) {
+        if (err) return err;
+
+        console.log('File created');
+    })
+});
+
