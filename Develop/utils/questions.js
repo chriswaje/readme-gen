@@ -13,7 +13,7 @@ module.exports = [
         type: 'input',
         name: 'installation',
         message: 'Does your project need to be installed? If so, include a step-by-step',
-        default: '(npm i)'
+        default: 'npm i'
     },
     {
         type: 'input',
@@ -35,7 +35,7 @@ module.exports = [
         type: 'input',
         name: 'contribute',
         message: 'How to contribute to the project',
-        default: 'For the project and create a pull request'
+        default: 'Fork the project and create a pull request'
     },
     {
         type: 'input',
