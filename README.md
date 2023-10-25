@@ -1,2 +1,2 @@
-# readne-gen
+# readme-gen
 NodeJS README generator
