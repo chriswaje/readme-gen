@@ -1,8 +1,10 @@
 # Sample Project
 
+ ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
 ## Description
 
-this is a short description
+Here is a short description
 
 ## Table of Contents
 
@@ -21,15 +23,15 @@ npm i
 
 ## Usage
 
-here are some instructions
+Here are some instructions
 
 ## Credits
 
-Me, Myself, and I. Jk. Plis help me.
+me, myself, and I. Jk. Plis help me
+
 
 ## License
-
-MIT
+ MIT
 
 ## Contribute
 
