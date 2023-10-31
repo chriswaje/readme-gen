@@ -66,7 +66,7 @@ ${contribute}
 
 ## Contact Me
 
-For any questions regarding the repository or to contact me, please email me direactly at [${email}](mailto:${email}). You can find more of my work on GitHub at [${gitHubUser}](https://github.com/${gitHubUser}).
+For any questions regarding the repository or to contact me, please email me directly at [${email}](mailto:${email}). You can find more of my work on GitHub at [${gitHubUser}](https://github.com/${gitHubUser}).
         `;
     }
 }
