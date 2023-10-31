@@ -1,7 +1,34 @@
+function renderLicenseSection(license) {
+    if (license === 'None') {
+        return ''
+    } else {
+        return `## License\n ${license}`
+    }
+}
+
+function renderLicenseContent(license) {
+    if (license === 'None') {
+        return ''
+    } else {
+        return `- [License](#license)`
+    }
+}
+
+function renderLicenseBadge(license) {
+    if (license === 'None') {
+        return ''
+    } else {
+        return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
+    }
+}
+
+
 module.exports = {
     handleAnswers: function (answers) {
         const { title, description, installation, usage, credits, license, contribute, gitHubUser, email } = answers;
         return `# ${title}
+
+ ${renderLicenseBadge(license)}
 
 ## Description
 
@@ -12,7 +39,7 @@ ${description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [License](#license)
+${renderLicenseContent(license)}
 - [How to Contribute](#contribute)
 - [Contact Me](#contact-me)
 
@@ -30,9 +57,8 @@ ${usage}
 
 ${credits}
 
-## License
 
-${license}
+${renderLicenseSection(license)}
 
 ## Contribute
 
