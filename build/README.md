@@ -4,7 +4,7 @@
 
 ## Description
 
-Here is a short description
+Here is a short description of my project
 
 ## Table of Contents
 
