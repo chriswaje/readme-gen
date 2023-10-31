@@ -15,3 +15,11 @@ In order to use the application, users will right-click on the index.js file and
 ## Credits
 
 NodeJS for the open-source server environment. NPM for the software registry and inquire for the npm package that was used to prompt questions for users when generating the README file. Diarmuid Murphy for assistance in object deconstructon to further sleek the design of the coding process. Meg Meyers for assistance in creating conditional statements for rendering the license section of the generated README file based on the user's selection of a license or none.
+
+## Link
+
+https://chriswaje.github.io/readme-gen/
+
+## Image(s)
+
+![](./images/readme-gen.png)
