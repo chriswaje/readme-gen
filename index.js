@@ -1,4 +1,3 @@
-// TODO: Include packages needed for this application
 const fs = require('fs');
 const { prompt } = require('inquirer');
 const questions = require('./utils/questions');
